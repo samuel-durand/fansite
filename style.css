@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/stranger-things-97-cool-logo-animation.gif);
+    background-position: 50% 50%;
+    background-size: 10% ;
+    height: 70px;
+    animation: move 12s linear infinite;
+}
+
+ul {
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+}
+
+li {
+    
+    display: inline;
+}
+
+
+/*link*/
+
+a {
+    text-decoration: none;
+}
+
+/*index.html*/
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-position: center;
+    background-size: 100% 110%;
+    background-image: url(./image/882548.jpg);
+}
+
+.main .main-box {
+    color: white;
+    height: 700px;
+}
+
+.main .main-box .box-actu {
+    
+    background-color: #3F0071;
+    border-radius: 5px;
+}
+
+
+/*video.html*/
+.videoplayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: #3F0071;
+} 
+
+.videoplayer .box{
+    background-color: antiquewhite;
+}
+
+
+/*footer*/
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 210px;
+    background-color: #610094;
+}
