@@ -68,13 +68,14 @@ a {
 }
 
 
-/*contact*/
+/*contact  html*/
 
 .main-contact {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 700px;
+    color: white;
     background-image: url(./image/879366.png);
     background-size: 100% 100%;
 }
@@ -135,4 +136,7 @@ footer {
     justify-content: space-around;
     height: 310px;
     background-color: #940000;
+    background-image: url(./image/arriving-monster-vecna.gif);
+    background-size: 100% 100%;
+    color: white;
 }
