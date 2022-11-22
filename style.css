@@ -23,9 +23,8 @@ header .logo {
 .navbar  {
     display: flex;
     justify-content: left;
-    background-color: #ff0000;
+    background-color: #551a1a;
     color: rgb(255, 255, 255);
-    height: 30px;
 }
 
 ul {
@@ -41,6 +40,7 @@ li {
 /*link*/
 
 a {
+    color: white;
     text-decoration: none;
 }
 
@@ -63,8 +63,50 @@ a {
 
 .main .main-box .box-actu {
     
-    background-color: #3F0071;
+    background-color: #611f00;
     border-radius: 5px;
+}
+
+
+/*contact*/
+
+.main-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-image: url(./image/879366.png);
+    background-size: 100% 100%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #611f00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
+
+.main-contact .container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
 }
 
 
@@ -91,6 +133,6 @@ a {
 footer {
     display: flex;
     justify-content: space-around;
-    height: 210px;
-    background-color: #610094;
+    height: 310px;
+    background-color: #940000;
 }
